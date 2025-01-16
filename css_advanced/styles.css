@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Learn from Pros */
+.learn-from-pros {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.learn-from-pros .profiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.learn-from-pros .profile {
+    text-align: center;
+    max-width: 200px;
+}
+
+.learn-from-pros img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Popular Tutorials */
+.popular-tutorials {
+    padding: 50px 20px;
+}
+
+.popular-tutorials .tutorials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.popular-tutorials .tutorial {
+    text-align: center;
+    max-width: 200px;
+}
+
+.popular-tutorials img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 50px 20px;
+    background: #333;
+    color: white;
+}
+
+.faq .faq-questions {
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+

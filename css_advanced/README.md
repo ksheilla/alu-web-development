@@ -17,3 +17,9 @@ The design for this project is available in Figma. Make sure to duplicate the de
 - **Fonts**: Install the required fonts if your computer reports any missing ones. These include:
   - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
   - Spin-Cycle-OT (Check font source if needed)
+
+    ## Inspired by this
+    ![image](https://github.com/user-attachments/assets/a39fba13-0fbf-4973-92cf-3f79689c7f83)
+
+
+
